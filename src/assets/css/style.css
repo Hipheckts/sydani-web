@@ -1,0 +1,347 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/poppins/Poppins-Regular.ttf") format("ttf");
+    font-weight: normal;
+    font-display: fallback;
+    font-style: normal
+}
+
+*{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\ */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styles */
+.top-nav{
+    display: inherit;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.site-name{
+    font-size: 28px;
+    font-weight: 650;
+    margin-left: 10px;
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    background-color: #e09f0e;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+}
+.user-avatar{
+    height: 45px;
+    width: 45px;
+    background-color: #aaa;
+    border-radius: 50%;
+    margin-right: 10px;
+    float: right;
+    margin-top: -1px;
+}
+/* End Header Styles */
+
+
+/* Bottom Navigation */
+
+.bottom-nav{
+    position: fixed;
+    bottom: -5%;
+    text-align: center;
+    left: -8%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.nav-bg{
+    width: 110%;
+}
+.nav-icons{
+    text-align: center;
+}
+.post-icon{
+    position: absolute;
+    bottom: 0;
+    left: 34.9%;
+    width: 40%;
+}
+.home-icon{
+    position: absolute;
+    bottom: 35%;
+    left: 15%;
+    width: 7%;
+}
+.message-icon{
+    position: absolute;
+    bottom: 35%;
+    left: 32%;
+    width: 7%;
+}
+.noti-icon{
+    position: absolute;
+    bottom: 35%;
+    left: 70%;
+    width: 5%;
+}
+.profile-icon{
+    position: absolute;
+    bottom: 35%;
+    left: 85%;
+    width: 4.8%;
+}
+
+.nav-icons svg path{
+    fill: #7A8FA6;
+  }
+
+svg.nav-icon-active path{
+    fill: #e09f0e;
+}
+/* End Bottom Navigation */
+
+/* Back Button */
+.back{
+    font-size: 12px;
+}
+.back-button{
+    width: 4%;
+    vertical-align: middle;
+}
+
+svg.back-button path{
+    /* fill: #000; */
+}
+
+/* End Back Button */
+
+/* Horizontal Scroll Cards */
+.horizontal-post-cards {
+    width: 100hh;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+    .h-scrolling-wrapper-flexbox {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .h-card {
+    min-width: 130px;
+    /* padding: 5px 10px; */
+    margin-right: 10px;
+    border-radius: 10px;
+    /* background: #FFBBBB; */
+  }
+  .h-card-img{
+      /* display: inline; */
+      width:100%;
+      min-height: 70px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  .h-card-name{
+      position: relative;
+      /* top: -5%!important; */
+      font-size: 7px;
+      color: #1B1B1B;
+      opacity: 80%;
+  }
+  .h-user-avatar{
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border: dashed;
+    border-width: 2px;
+    border-color: #e09f0e;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+    }
+.h-user-avatar img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 6%;
+    }
+.h-scrolling-wrapper, .h-scrolling-wrapper-flexbox {
+    /* min-height: 200px; */
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    }
+::-webkit-scrollbar {
+    display: none;
+  }
+/* End Horizontal Scroll Cards */
+
+/* Vertical Scroll Cards */
+
+.title-dot{
+    height: 8px;
+    width: 8px;
+    background-color: #e09f0e;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+}
+.feed-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.vertical-post-cards {
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+.v-scrolling-wrapper-flexbox {
+    display: inline-block;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+  }
+  
+  .v-card {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .v-card-img{
+      margin-top: 20px;
+      margin-bottom: -10px;
+      width:100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+  }
+  .v-card-name{
+      position: relative;
+      font-size: 12px;
+      color: #1B1B1B;
+      font-weight: 600;
+  }
+  .v-card-title{
+    position: relative;
+    font-size: 10px;
+    color: #1B1B1B;
+    opacity: 50%;
+    display: block;
+    margin-top: -25px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  .v-user-avatar{
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 15px;
+    }
+    .v-user-avatar img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-top: 6%;
+        }
+        .v-card-u-name{
+            margin-left: 10px;
+        }
+  .v-scrolling-wrapper, .v-scrolling-wrapper-flexbox {
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .post-action{
+      display: inline;
+      color: #7A8FA6;
+      margin-left: 10px;
+  }
+  .action-icon{
+    width: 4%;
+    vertical-align: middle;
+  }
+  .action svg path:hover{
+    fill: red;
+  }
+  /* .p-card svg path {
+        fill: red;
+        transition: all .3s;
+    } */
+  .action{
+      /* margin-right: 15px; */
+      font-size: 12px;
+  }
+  .action-text{
+    margin-right: 30px;
+    font-size: 10px;
+}
+  a{
+    text-decoration: none;
+    color: #7A8FA6;
+    }
+/* End Vertical Scroll Cards */
+
+/* View Posts */
+
+.p-card {
+    margin-top: -10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  .p-card-img{
+      margin-top: 20px;
+      margin-bottom: -10px;
+      width:100%;
+      min-height: 320px;
+      object-fit: cover;
+      border-radius: 15px;
+      /* border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px; */
+  }
+
+/* End View Posts */
+
+
+li.pg-link{
+    color: white;
+    list-style: none;
+    display: inline;
+    padding: .7%;
+    margin: 1%;
+    background-color: coral;
+}
+li.pg-link:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+/* Sweetalert */
+
+.swal-overlay {
+    background-color: rgba(245, 196, 60, 0.466);
+  }
+  .swal-button {
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: #e09f0e;
+    font-size: 12px;
+    border: 1px solid #e09f0e;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  }
+
+/* End Sweetalert */
+
+
+pre code {
+    background-color: #000;
+    display: block;
+    padding: 20px;
+    color: greenyellow;
+  }
+
+input{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

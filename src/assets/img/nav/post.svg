@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150.354" height="150.354" viewBox="0 0 150.354 150.354">
+  <defs>
+    <filter id="Path_7" x="0" y="0" width="150.354" height="150.354" filterUnits="userSpaceOnUse">
+      <feOffset dy="7" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.831"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_70" data-name="Group 70" transform="translate(5839 -622)">
+    <g transform="matrix(1, 0, 0, 1, -5839, 622)" filter="url(#Path_7)">
+      <path id="Path_7-2" data-name="Path 7" d="M30.177,0A30.177,30.177,0,1,1,0,30.177,30.177,30.177,0,0,1,30.177,0Z" transform="translate(45 38)" fill="#fff" opacity="0.14"/>
+    </g>
+    <g id="Group_27" data-name="Group 27" transform="translate(-5953 -56)">
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="24.396" cy="24.396" r="24.396" transform="translate(165 722)" fill="#e09f0e"/>
+      <g id="Group_26" data-name="Group 26" transform="translate(181.169 738.827)">
+        <path id="Path_9" data-name="Path 9" d="M-4733.1,741v16.075" transform="translate(4741.14 -741.001)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+        <path id="Path_10" data-name="Path 10" d="M0,0V16.075" transform="translate(16.075 8.038) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
+      </g>
+    </g>
+  </g>
+</svg>
